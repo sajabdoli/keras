@@ -175,7 +175,7 @@ class SGD2(Optimizer):
         nesterov: boolean. Whether to apply Nesterov momentum.
     """
 
-    def __init__(self, lr=[0.00000000001,0.0000000001,0.000000001,0.00000001,0.0000001
+    def __init__(self, lr=[0.00000000001,0.0000000001,0.000000001,0.00000001,0.0000001,
                           0.000001,0.00001,0.0001,0.001,0.01,0.01], momentum=0., decay=0.,
                  nesterov=False, **kwargs):
         super(SGD, self).__init__(**kwargs)
